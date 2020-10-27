@@ -8,18 +8,18 @@ const { join } = require("path");
 let TOKEN, PREFIX;
 try {
   const config = require("./config.json");
-  TOKEN = config.TOKEN;
-  PREFIX = config.PREFIX;
+  TOKEN = config.NzU1NDgyMTE5OTUzNzExMTk0.X2D7jQ.s_qhaE9pqdjCqeq2XuJdBSmCs_o;
+  PREFIX = config.$;
 } catch (error) {
-  TOKEN = process.env.TOKEN;
-  PREFIX = process.env.PREFIX;
+  TOKEN = process.env.NzU1NDgyMTE5OTUzNzExMTk0.X2D7jQ.s_qhaE9pqdjCqeq2XuJdBSmCs_o;
+  PREFIX = process.env.$;
 }
 
 const client = new Client({ disableMentions: "everyone" });
 
-client.login(TOKEN);
+client.login(NzU1NDgyMTE5OTUzNzExMTk0.X2D7jQ.s_qhaE9pqdjCqeq2XuJdBSmCs_o);
 client.commands = new Collection();
-client.prefix = PREFIX;
+client.prefix = $;
 client.queue = new Map();
 const cooldowns = new Collection();
 const escapeRegex = (str) => str.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
